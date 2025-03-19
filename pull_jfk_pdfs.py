@@ -5,10 +5,10 @@ import urllib.parse
 from tqdm import tqdm
 
 # URL of the page with all 1,123 PDF links
-page_url = "https://www.archives.gov/jfk"  # Replace with the exact URL of the page
+page_url = "https://www.archives.gov/research/jfk/release-2025"  # Replace with the exact URL of the page
 
 # Base domain to convert relative URLs to absolute
-base_domain = "https://www.archives.gov"
+base_domain = "https://www.archives.gov/"
 
 # Directory to save the downloaded PDFs
 download_dir = "jfk_records"
